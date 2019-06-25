@@ -45,25 +45,25 @@ namespace ToDoApp.WebApp.Controllers
         
         public IActionResult NotDoneTasks(int? id)
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
+            User user = _userService.GetAll().SingleOrDefault(x => x.Id == id);
             return View(user);
         }
 
         public IActionResult InProgressTasks(int? id)
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
+            User user = _userService.GetAll().SingleOrDefault(x => x.Id == id);
             return View(user);
         }
 
         public IActionResult DoneTasks(int? id)
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);            
+            User user = _userService.GetAll().SingleOrDefault(x => x.Id == id);            
             return View(user);
         }
 
         public IActionResult UserStatistics(int? id)
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
+            User user = _userService.GetAll().SingleOrDefault(x => x.Id == id);
             return View(user);
         }
         [HttpGet("AddNewTask")]
@@ -102,7 +102,7 @@ namespace ToDoApp.WebApp.Controllers
         [HttpGet]
         public IActionResult DetailsTask(int? id)
         {
-            var task = _taskService.GetAllTasks().FirstOrDefault(x => x.Id == id);
+            var task = _taskService.GetAllTasks().SingleOrDefault(x => x.Id == id);
             var subTasks = _subTaskService.GetAll().Where(x => x.TaskID == task.Id).ToList();
          
             ListSubTasksViewModel model = new ListSubTasksViewModel()
