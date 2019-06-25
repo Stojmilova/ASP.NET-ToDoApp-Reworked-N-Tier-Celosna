@@ -1,0 +1,48 @@
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.deps.json
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfo.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.deps.json
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.deps.json
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.deps.json
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.DataAccess\obj\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb

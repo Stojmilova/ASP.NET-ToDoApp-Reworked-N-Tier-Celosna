@@ -1,0 +1,33 @@
+﻿@model ListSubTasksViewModel
+
+@{
+    ViewBag.Title = "****View DETAILS TASK****";
+}
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(x => x.Title)
+    @Html.TextBoxFor(x => x.Title)
+    <br />
+    @Html.LabelFor(x => x.Description)
+    @Html.TextBoxFor(x => x.Description)
+    <br />
+    @Html.LabelFor(x => x.Priority)
+    @Html.DropDownListFor(x => x.Priority, Html.GetEnumSelectList(Model.Priority.GetType()), new { id = Model.Id })
+    <br />
+    @Html.LabelFor(x => x.Status)
+    @Html.DropDownListFor(x => x.Status, Html.GetEnumSelectList(Model.Status.GetType()), new { id = Model.Id })
+    <br />
+    @Html.LabelFor(x => x.TaskType)
+    @Html.DropDownListFor(x => x.TaskType, Html.GetEnumSelectList(Model.TaskType.GetType()), new { id = Model.Id })
+    <br />
+    <ul>
+        @foreach (var subTask in Model.SubTasks)
+        {
+            <li>Title: @subTask.Title => Description: @subTask.Description</li>
+        }
+    </ul>
+    
+    <button type="submit">@Html.ActionLink("Back To ALL", "Index")</button>
+
+}
+

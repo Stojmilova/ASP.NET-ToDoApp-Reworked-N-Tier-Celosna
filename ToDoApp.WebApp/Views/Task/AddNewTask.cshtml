@@ -1,0 +1,43 @@
+﻿@model TasksViewModel
+@{
+    ViewBag.Title = "Add New Task";
+}
+
+<h1 style="color:cornflowerblue">@ViewBag.Title</h1>
+
+<p>Please enter the correct data to add a new Task</p>
+
+<br />
+
+@using (Html.BeginForm())
+{
+
+    @Html.LabelFor(x => x.Title);
+    @Html.TextBoxFor(x => x.Title);
+    <br />
+    @Html.LabelFor(x => x.Description);
+    @Html.TextBoxFor(x => x.Description);
+    <br />
+    @Html.LabelFor(x => x.Priority)
+    @Html.DropDownListFor(x => x.Priority, Html.GetEnumSelectList(Model.Priority.GetType()))
+    <br />
+    @Html.LabelFor(x => x.Status)
+    @Html.DropDownListFor(x => x.Status, Html.GetEnumSelectList(Model.Status.GetType()))
+    <br />
+    @Html.LabelFor(x => x.TaskType)
+    @Html.DropDownListFor(x => x.TaskType, Html.GetEnumSelectList(Model.TaskType.GetType()))
+    <br />
+    <br />
+    @Html.LabelFor(x => x.TitleSubTask);
+    @Html.TextBoxFor(x => x.TitleSubTask);
+    <br />
+    @Html.LabelFor(x => x.DescriptionSubTask);
+    @Html.TextBoxFor(x => x.DescriptionSubTask);
+    <br />
+    @Html.DropDownListFor(x => x.StatusSubTask, Html.GetEnumSelectList(Model.StatusSubTask.GetType()))
+    <br />
+    <br />
+    <button>ADD</button>
+}
+
+

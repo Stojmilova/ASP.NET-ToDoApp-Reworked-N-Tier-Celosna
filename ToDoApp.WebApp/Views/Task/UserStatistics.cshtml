@@ -1,0 +1,33 @@
+﻿@model User
+@{
+    ViewBag.Title = "User Statistics";
+}
+
+<h1 style="color:grey">@ViewBag.Title</h1>
+<br />
+<table style="border:5px  double grey; width:100%; margin-bottom:10px; padding:5px">
+    <thead>
+        <tr>
+            <th style="border:1px solid black">FirstName: </th>
+            <th style="border:1px solid black">LastName: </th>
+            <th style="border:1px solid black">Age: </th>
+            <th style="border:1px solid black">Average Free Time: </th>
+            <th style="border:1px solid black">Email </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid black">@Model.FirstName</td>
+
+            <td style="border:1px solid black">@Model.LastName</td>
+
+            <td style="border:1px solid black">@Model.Age</td>
+
+            <td style="border:1px solid black">@Model.AverageFreeTime </td>
+
+            <td style="border:1px solid black">@Model.Email</td>
+        </tr>
+    </tbody>
+
+</table>
+<br />

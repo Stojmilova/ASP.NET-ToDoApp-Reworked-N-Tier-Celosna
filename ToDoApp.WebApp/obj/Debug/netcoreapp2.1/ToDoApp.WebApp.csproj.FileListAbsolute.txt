@@ -1,0 +1,159 @@
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.deps.json
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.json
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.dev.json
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csprojAssemblyReference.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfo.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.input.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.output.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorCoreGenerate.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CopyComplete
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AddedTask.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\NotDoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\InProgressTasks.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\UserStatistics.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\AddNewTask.g.cshtml.cs
+C:\Users\Stojmilova\source\repos\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DetailsTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.deps.json
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.json
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.dev.json
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.input.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.output.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorCoreGenerate.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AddedTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\AddNewTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DetailsTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\InProgressTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\NotDoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\UserStatistics.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\Desktop\Homework-Class 06\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.deps.json
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.json
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.dev.json
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.input.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.output.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorCoreGenerate.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AddedTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\AddNewTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DetailsTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\InProgressTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\NotDoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\UserStatistics.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\ASP.NET MVC\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.deps.json
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.json
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.runtimeconfig.dev.json
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.input.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.TagHelpers.output.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorCoreGenerate.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AddedTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\AddNewTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DetailsTask.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\DoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\Index.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\InProgressTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\NotDoneTasks.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\Task\UserStatistics.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.Views.pdb
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.dll
+C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.WebApp\obj\Debug\netcoreapp2.1\ToDoApp.WebApp.pdb

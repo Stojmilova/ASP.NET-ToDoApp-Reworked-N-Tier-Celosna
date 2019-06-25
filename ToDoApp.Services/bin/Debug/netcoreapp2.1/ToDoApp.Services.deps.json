@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ToDoApp.Services/1.0.0": {
+        "dependencies": {
+          "ToDoApp.DataAccess": "1.0.0",
+          "ToDoApp.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1.0"
+        },
+        "runtime": {
+          "ToDoApp.Services.dll": {}
+        }
+      },
+      "ToDoApp.DataAccess/1.0.0": {
+        "dependencies": {
+          "ToDoApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ToDoApp.DataAccess.dll": {}
+        }
+      },
+      "ToDoApp.Domain/1.0.0": {
+        "runtime": {
+          "ToDoApp.Domain.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToDoApp.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDoApp.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDoApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
