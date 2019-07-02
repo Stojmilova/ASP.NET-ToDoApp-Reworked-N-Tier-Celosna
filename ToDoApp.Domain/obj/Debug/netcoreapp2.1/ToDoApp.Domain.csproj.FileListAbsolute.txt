@@ -33,3 +33,11 @@ C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Domain\o
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.dll
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\bin\Debug\netcoreapp2.1\ToDoApp.Domain.deps.json
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.pdb

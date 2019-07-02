@@ -1,33 +1,70 @@
-﻿@model ListSubTasksViewModel
+﻿@model TaskViewModel
 
 @{
-    ViewBag.Title = "****View DETAILS TASK****";
-}
-@using (Html.BeginForm())
-{
-    @Html.LabelFor(x => x.Title)
-    @Html.TextBoxFor(x => x.Title)
-    <br />
-    @Html.LabelFor(x => x.Description)
-    @Html.TextBoxFor(x => x.Description)
-    <br />
-    @Html.LabelFor(x => x.Priority)
-    @Html.DropDownListFor(x => x.Priority, Html.GetEnumSelectList(Model.Priority.GetType()), new { id = Model.Id })
-    <br />
-    @Html.LabelFor(x => x.Status)
-    @Html.DropDownListFor(x => x.Status, Html.GetEnumSelectList(Model.Status.GetType()), new { id = Model.Id })
-    <br />
-    @Html.LabelFor(x => x.TaskType)
-    @Html.DropDownListFor(x => x.TaskType, Html.GetEnumSelectList(Model.TaskType.GetType()), new { id = Model.Id })
-    <br />
-    <ul>
-        @foreach (var subTask in Model.SubTasks)
-        {
-            <li>Title: @subTask.Title => Description: @subTask.Description</li>
-        }
-    </ul>
-    
-    <button type="submit">@Html.ActionLink("Back To ALL", "Index")</button>
-
+    ViewData["Title"] = "TaskDetails";
 }
 
+<div class="jumbotron">
+    @using (Html.BeginForm())
+    {
+        <h2>View Details-Tasks:</h2>
+        <div class="row">
+            <div class="hidden, col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.Id")</span>
+                @Html.TextBox($"model.Id", Model.Id, null, new { @class = "form-control" })
+            </div>
+            <div class="input-group, col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.Title")</span>
+                @Html.TextBox($"model.Title", Model.Title, null, new { @class = "form-control" })
+            </div>
+            <div class="input-group, col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.Description")</span>
+                @Html.TextBox($"model.Description", Model.Description, null, new { @class = "form-control" })
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="input-group col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.Priority")</span>
+                @Html.DropDownList($"model.Priority", Html.GetEnumSelectList(Model.Priority.GetType()), new { Model.Priority, @class = "form-control" })
+            </div>
+            <div class="input-group col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.Status of Task")</span>
+                @Html.DropDownList($"model.Status", Html.GetEnumSelectList(Model.Status.GetType()), new { Model.Status, @class = "form-control" })
+            </div>
+            <div class="input-group col-md-4">
+                <span class="input-group-addon">@Html.Label(expression: $"model.TaskType")</span>
+                @Html.DropDownList($"model.TaskType", Html.GetEnumSelectList(Model.TaskType.GetType()), new { Model.TaskType, @class = "form-control" })
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <h2>View Details-Subtasks:</h2>
+            @for (int i = 0; i < Model.SubTasks.Count; i++)
+            {
+                <h4>SubTask no: @(i + 1)</h4>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-group input-group-md">
+                            <span class="input-group-addon">@Html.Label(expression: $"model.[{i}].Title")</span>
+                            @Html.TextBox($"model.SubTasks[{i}].Title", Model.SubTasks[i].Title, null, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group input-group-md">
+                            <span class="input-group-addon">@Html.Label(expression: $"model.[{i}].Description")</span>
+                            @Html.TextBox($"model.SubTasks[{i}].Description", Model.SubTasks[i].Description, null, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group input-group-md">
+                            <span class="input-group-addon">@Html.Label(expression: $"model.SubTasks[{i}].Status")</span>
+                            @Html.DropDownList($"model.SubTasks[{i}].Status", Html.GetEnumSelectList(Model.SubTasks[i].Status.GetType()), new { Model.SubTasks[i].Status, @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="btn btn-danger" type="submit">Save Changes</button>
+    }
+</div>

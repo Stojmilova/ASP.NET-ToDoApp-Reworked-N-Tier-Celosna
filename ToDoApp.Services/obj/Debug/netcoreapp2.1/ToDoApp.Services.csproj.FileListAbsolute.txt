@@ -52,3 +52,19 @@ C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Services
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.csproj.CopyComplete
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.dll
 C:\Users\Stojmilova\Desktop\Homework - Class 6\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.Services.deps.json
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.Services.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.Domain.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.DataAccess.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.csprojAssemblyReference.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.AssemblyInfoInputs.cache
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.AssemblyInfo.cs
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.csproj.CopyComplete
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.dll
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Services\obj\Debug\netcoreapp2.1\ToDoApp.Services.pdb

@@ -13,15 +13,14 @@
         <nav class="navbar navbar-default">
             <ul class="nav nav-pills">
                  <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                 <li>@Html.ActionLink("Done", "DoneTasks", "Task", new { id = 3 }, null)</li>
-                 <li>@Html.ActionLink("In progress", "InProgressTasks", "Task", new { id = 3 }, null)</li>
-                 <li>@Html.ActionLink("Not Done", "NotDoneTasks", "Task", new { id = 3 }, null)</li>
+                 <li>@Html.ActionLink("Done", "DoneTasks", "Task")</li>
+                 <li>@Html.ActionLink("In progress", "InProgressTasks")</li>
+                 <li>@Html.ActionLink("Not Done", "NotDoneTasks", "Task")</li>
                  <li>@Html.ActionLink("Statistics", "UserStatistics", "Task", new { id = 3 }, null)</li>
-                 <li>@Html.ActionLink("Add New Task", "AddNewTask", "Task")</li>
+                 <li>@Html.ActionLink("Add New Task", "AddSubTask", "Task")</li>
             </ul>
         </nav>
     </header>
-
     @RenderBody()
 
     <footer>

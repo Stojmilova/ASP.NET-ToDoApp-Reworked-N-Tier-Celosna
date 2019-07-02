@@ -10,5 +10,6 @@ namespace ToDoApp.Services.Services
         List<ToDoTask> GetAllTasks();
         ToDoTask GetTaskById(int id);
         void AddNewTask(ToDoTask task);
+        void UpdateTask(ToDoTask task);
     }
 }

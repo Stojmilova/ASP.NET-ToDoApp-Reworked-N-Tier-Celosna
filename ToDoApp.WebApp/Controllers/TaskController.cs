@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ToDoApp.DataAccess;
+using ToDoApp.Domain.Enums;
 using ToDoApp.Domain.Models;
 using ToDoApp.Services.Services;
 using ToDoApp.WebApp.Models;
@@ -11,25 +12,27 @@ using ToDoApp.WebApp.Models;
 namespace ToDoApp.WebApp.Controllers
 {
     public class TaskController : Controller
-    {       
-        private IUserService _userService;
+    {
+
         private IToDoTaskService _taskService;
+        private IUserService _userService;
         private ISubTaskService _subTaskService;
 
         public TaskController(IUserService userService, IToDoTaskService taskService, ISubTaskService subTaskService)
-        {        
+        {
             _userService = userService;
             _taskService = taskService;
             _subTaskService = subTaskService;
+
         }
         public IActionResult Index()
         {
-            List<ListSubTasksViewModel> taskViewModel = new List<ListSubTasksViewModel>();
+            List<AllTasksViewModel> taskViewModel = new List<AllTasksViewModel>();
             var tasks = _taskService.GetAllTasks();
-           
+
             foreach (var task in tasks)
             {
-                taskViewModel.Add(new ListSubTasksViewModel()
+                taskViewModel.Add(new AllTasksViewModel()
                 {
                     Title = task.Title,
                     Description = task.Description,
@@ -37,91 +40,183 @@ namespace ToDoApp.WebApp.Controllers
                     Status = task.Status,
                     TaskType = task.TaskType,
                     SubTasks = task.SubTasks
-                });              
+                });
             }
-            
+
             return View(taskViewModel);
+
         }
-        
-        public IActionResult NotDoneTasks(int? id)
+        public IActionResult NotDoneTasks()
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
-            return View(user);
+            List<ToDoTask> allNotDoneTasks = _taskService.GetAllTasks().Where(x => x.Status == TypeStatus.NotDone).ToList();
+            foreach (var task in allNotDoneTasks)
+            {
+                foreach (var subtask in _subTaskService.GetAll().Where(x => x.TaskID == task.Id))
+                {
+                    task.SubTasks.Add(subtask);
+                }
+            };
+            ToDoTaskViewModel model = new ToDoTaskViewModel()
+            {
+                Tasks = allNotDoneTasks
+            };
+
+            return View(model);
         }
 
-        public IActionResult InProgressTasks(int? id)
+        public IActionResult InProgressTasks()
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
-            return View(user);
+            List<ToDoTask> allInProgressTasks = _taskService.GetAllTasks().Where(x => x.Status == TypeStatus.InProgress).ToList();
+            foreach (var task in allInProgressTasks)
+            {
+                foreach (var subtask in _subTaskService.GetAll().Where(x => x.TaskID == task.Id))
+                {
+                    task.SubTasks.Add(subtask);
+                }
+            };
+            ToDoTaskViewModel model = new ToDoTaskViewModel()
+            {
+                Tasks = allInProgressTasks
+            };
+
+            return View(model);
         }
 
-        public IActionResult DoneTasks(int? id)
+        public IActionResult DoneTasks()
         {
-            User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);            
-            return View(user);
-        }
+            List<ToDoTask> allDoneTasks = _taskService.GetAllTasks().Where(x => x.Status == TypeStatus.Done).ToList();
+            foreach (var task in allDoneTasks)
+            {
+                foreach (var subtask in _subTaskService.GetAll().Where(x => x.TaskID == task.Id))
+                {
+                    task.SubTasks.Add(subtask);
+                }
+            };
+            ToDoTaskViewModel model = new ToDoTaskViewModel()
+            {
+                Tasks = allDoneTasks
+            };
 
+            return View(model);
+        }
+        [Route("Task/UserStatistics/{id}")]
         public IActionResult UserStatistics(int? id)
         {
             User user = _userService.GetAll().FirstOrDefault(x => x.Id == id);
             return View(user);
         }
-        [HttpGet("AddNewTask")]
-        public IActionResult AddNewTask(string error)
+        [HttpGet]
+        public IActionResult AddSubTask()
         {
-            ViewBag.Error = error == null ? "" : error;
-            TasksViewModel model = new TasksViewModel();
-            return View(model);
+            return View(new AddSubTaskViewModel());
         }
-        [HttpPost("AddNewTask")]
-        public IActionResult AddNewTask(TasksViewModel model)
+
+        [HttpPost]
+        public IActionResult AddSubTask(AddSubTaskViewModel model)
         {
-            ToDoTask task = new ToDoTask()
+            return RedirectToAction("AddTask", "Task", new { subtasks = model.NumberOfSubTask });
+        }
+        [HttpGet]
+        [Route("Task/AddTask/{subtasks}")]
+        public IActionResult AddTask(string error, [FromRoute]int? subtasks)
+        {
+            if (error != null) return View("_Error");
+            AddTaskViewModel modelToDo = new AddTaskViewModel();
+            modelToDo.SubTasks = new List<SubTaskViewModel>();
+            for (int i = 0; i < subtasks.Value; i++)
+            {
+                modelToDo.SubTasks.Add(new SubTaskViewModel());
+            }
+            return View(modelToDo);
+        }
+        [HttpPost]
+        public IActionResult AddTask(AddTaskViewModel model)
+        {
+            List<SubTask> subtasks = new List<SubTask>();
+            foreach (var subtask in model.SubTasks)
+            {
+                subtasks.Add(new SubTask()
+                {
+                    Title = subtask.Title,
+                    Description = subtask.Description,
+                    Status = subtask.Status
+                });
+            }
+            ToDoTask todo = new ToDoTask()
             {
                 Title = model.Title,
                 Description = model.Description,
                 Priority = model.Priority,
                 Status = model.Status,
-                TaskType = model.TaskType,
+                TaskType = model.TypeOfTask,
+                SubTasks = subtasks
             };
-            _taskService.AddNewTask(task);//Add task in _taskService;
-
-            SubTask subtask = new SubTask()
-            {               
-                Title = model.TitleSubTask,
-                Description = model.DescriptionSubTask,
-                Status = model.StatusSubTask,
-            };
-            task.SubTasks.Add(subtask);//Add subtask in SubTasks-List of task;
-
-            User user = _userService.GetUserById(3);//Add task to login user - Megan Morton;
-            user.CreatedTasks.Add(task);
+            _taskService.AddNewTask(todo);
 
             return View("_AddedTask");
         }
+
+
         [HttpGet]
-        public IActionResult DetailsTask(int? id)
+        [Route("Task/DetailsTask/{id}")]
+        public IActionResult DetailsTask(int id)
         {
-            var task = _taskService.GetAllTasks().FirstOrDefault(x => x.Id == id);
-            var subTasks = _subTaskService.GetAll().Where(x => x.TaskID == task.Id).ToList();
-         
-            ListSubTasksViewModel model = new ListSubTasksViewModel()
-            {              
+
+            ToDoTask task = _taskService.GetAllTasks().FirstOrDefault(x => x.Id == id);
+
+            List<SubTaskViewModel> allSubTasks = new List<SubTaskViewModel>();
+            foreach (SubTask subtask in task.SubTasks)
+            {
+                allSubTasks.Add(new SubTaskViewModel()
+                {
+                    Id = subtask.Id,
+                    Title = subtask.Title,
+                    Description = subtask.Description,
+                    Status = subtask.Status
+                });
+
+            }
+
+            TaskViewModel model = new TaskViewModel()
+            {
+                Id = task.Id,
                 Title = task.Title,
                 Description = task.Description,
                 Priority = task.Priority,
                 Status = task.Status,
                 TaskType = task.TaskType,
-                SubTasks = subTasks
+                SubTasks = allSubTasks
             };
 
             return View(model);
         }
         [HttpPost]
-        public IActionResult DetailsTask(ListSubTasksViewModel model)
-        {           
-            List<SubTask> subTasks = _subTaskService.GetAll().Where(x => x.TaskID == model.Id).ToList();
+        [Route("Task/DetailsTask/{model}")]
+        public IActionResult DetailsTask(TaskViewModel model)
+        {
+            ToDoTask todo = _taskService.GetAllTasks().FirstOrDefault(t => t.Id == model.Id);
 
+            List<SubTaskViewModel> allSubTasks = new List<SubTaskViewModel>();
+            foreach (var subTask in model.SubTasks)
+            {
+                allSubTasks.Add(subTask);
+            }
+
+            // MAPPING SECTION
+
+            //To SubTask
+            List<SubTask> subtasks = new List<SubTask>();
+            foreach (var subTask in allSubTasks)
+            {
+                subtasks.Add(new SubTask()
+                {
+                    Id = subTask.Id,
+                    Title = subTask.Title,
+                    Description = subTask.Description,
+                    Status = subTask.Status,
+                });
+            }
+            //To ToDoTask
             ToDoTask task = new ToDoTask()
             {
                 Id = model.Id,
@@ -130,12 +225,12 @@ namespace ToDoApp.WebApp.Controllers
                 Priority = model.Priority,
                 Status = model.Status,
                 TaskType = model.TaskType,
-                SubTasks = subTasks
+                SubTasks = subtasks
             };
-            _taskService.AddNewTask(task);
 
-            return View(subTasks);
+            _taskService.UpdateTask(task);
+
+            return View("_EditDetailsView");
         }
-
     }
 }

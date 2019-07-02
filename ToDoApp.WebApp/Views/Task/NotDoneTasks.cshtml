@@ -1,26 +1,24 @@
-﻿@model User
+﻿@model ToDoTaskViewModel
 @{
     ViewBag.Title = "Not Done Tasks";
 }
 
 <h1 style="color:red">@ViewBag.Title</h1>
 <br />
-
-<table style="border:5px  double grey; width:100%; margin-bottom:10px; padding:5px">
-    <thead>
-        <tr>
-            <th style="border:1px solid black">Title</th>
-            <th style="border:1px solid black">Description</th>
-            <th style="border:1px solid black">Priority </th>
-            <th style="border:1px solid black">Status</th>
-            <th style="border:1px solid black">TaskType</th>
-            <th style="border:1px solid black">SubTasks</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var task in Model.CreatedTasks)
-        {
-            if (task.Status == TypeStatus.NotDone)
+<div class="jumbotron">
+    <table style="border:5px  double grey; width:100%; margin-bottom:10px; padding:5px">
+        <thead>
+            <tr>
+                <th style="border:1px solid black">Title</th>
+                <th style="border:1px solid black">Description</th>
+                <th style="border:1px solid black">Priority </th>
+                <th style="border:1px solid black">Status</th>
+                <th style="border:1px solid black">TaskType</th>
+                <th style="border:1px solid black">SubTasks</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Model.Tasks)
             {
                 <tr>
                     <td style="border:1px solid black">@task.Title</td>
@@ -36,9 +34,9 @@
                             }
                         </ul>
                     </td>
-                    <td><button type="button" class="btn btn-primary">@Html.ActionLink("View DETAILS", "DetailsTask", "Task", new { id = task.Id })</button></td>
+                    <td><button type="button" class="btn btn-danger">@Html.ActionLink("View DETAILS", "DetailsTask", "Task", new { id = task.Id })</button></td>
                 </tr>
             }
-        }
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>

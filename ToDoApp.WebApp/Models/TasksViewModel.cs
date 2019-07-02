@@ -24,5 +24,6 @@ namespace ToDoApp.WebApp.Models
         [Display(Name = "Description of Subtask")]
         public string DescriptionSubTask { get; set; }
         public TypeStatusSubTask StatusSubTask { get; set; }
+      
     }
 }

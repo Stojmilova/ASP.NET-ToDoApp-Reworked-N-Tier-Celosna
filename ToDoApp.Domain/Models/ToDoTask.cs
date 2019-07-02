@@ -14,7 +14,7 @@ namespace ToDoApp.Domain.Models
         public TypeStatus Status { get; set; }
         public TypeOfTask TaskType { get; set; }
         public List<SubTask> SubTasks { get; set; }
-        public int UserId { get; set; }
+        //public int UserId { get; set; }
 
         public ToDoTask()
         {
