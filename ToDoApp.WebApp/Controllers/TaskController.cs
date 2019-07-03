@@ -162,9 +162,10 @@ namespace ToDoApp.WebApp.Controllers
         public IActionResult DetailsTask(int id)
         {
 
-            ToDoTask task = _taskService.GetAllTasks().FirstOrDefault(x => x.Id == id);
+            ToDoTask task = _taskService.GetAllTasks().Where(x => x.Id == id).FirstOrDefault();
 
             List<SubTaskViewModel> allSubTasks = new List<SubTaskViewModel>();
+            var y = _taskService.GetAllTasks();
             foreach (SubTask subtask in task.SubTasks)
             {
                 allSubTasks.Add(new SubTaskViewModel()

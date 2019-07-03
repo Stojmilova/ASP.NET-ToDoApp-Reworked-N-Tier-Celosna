@@ -9,6 +9,6 @@ namespace ToDoApp.Services.Services
     {
         void AddNewSubTask(SubTask entity);
         List<SubTask> GetAll();
-        //void UpdateSubTask(SubTask subtask);
+       
     }
 }

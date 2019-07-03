@@ -30,6 +30,10 @@ namespace ToDoApp.DataAccess.Repositories.CacheRepositories
         {
             CacheDb.TaskId++;
             entity.Id = CacheDb.TaskId;
+            foreach (var item in entity.SubTasks)
+            {
+                item.TaskID = CacheDb.TaskId;
+            }
             CacheDb._tasksDb.Add(entity);
         }
 

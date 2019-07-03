@@ -24,10 +24,5 @@ namespace ToDoApp.Services.Services
         {
             return _subTaskRepository.GetAll();
         }
-
-        //public void UpdateSubTask(SubTask subtask)
-        //{
-        //    _subTaskRepository.Update(subtask);
-        //}
     }
 }
