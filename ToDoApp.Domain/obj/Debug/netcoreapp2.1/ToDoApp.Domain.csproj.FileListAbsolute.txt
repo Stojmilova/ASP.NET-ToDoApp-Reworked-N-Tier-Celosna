@@ -41,3 +41,4 @@ C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\ne
 C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.AssemblyInfo.cs
 C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.dll
 C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.pdb
+C:\Users\Stojmilova\Desktop\KONECNA\ToDoApp.Reworked\ToDoApp.Domain\obj\Debug\netcoreapp2.1\ToDoApp.Domain.csprojAssemblyReference.cache
